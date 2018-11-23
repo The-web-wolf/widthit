@@ -1,0 +1,10 @@
+body,html{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.page-header{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
