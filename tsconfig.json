@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "es7",
+      "ES2019",
+      "es2020"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "downlevelIteration": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "charset": "utf8",
+    "baseUrl": "./",
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
+    "outDir": "./dist"
+  },
+  "include": [
+    "./src/**/*",
+    "./tests/**/*",
+    "types"
+  ]
+}

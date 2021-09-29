@@ -1,0 +1,59 @@
+$sizes: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 12px, 16px, 20px, 24px, 28px, 32px, 36px, 40px, 44px, 48px, 52px, 64px;
+
+@each $size in $sizes {
+  .mt-#{$size} {
+    margin-top: $size;
+  }
+
+  .mr-#{$size} {
+    margin-right: $size;
+  }
+
+  .mb-#{$size} {
+    margin-bottom: $size;
+  }
+
+  .ml-#{$size} {
+    margin-left: $size;
+  }
+
+  .mx-#{$size} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+
+  .my-#{$size} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+
+  .p-#{$size} {
+    padding: $size;
+  }
+
+  .pt-#{$size} {
+    padding-top: $size;
+  }
+
+  .pr-#{$size} {
+    padding-right: $size;
+  }
+
+  .pb-#{$size} {
+    padding-bottom: $size;
+  }
+
+  .pl-#{$size} {
+    padding-left: $size;
+  }
+
+  .px-#{$size} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+
+  .py-#{$size} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+}

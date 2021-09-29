@@ -1,0 +1,42 @@
+@import '../../../../style/_variables';
+
+.list {
+  list-style: none;
+  border-top: 2px solid $grey-light;
+  padding: 0;
+  margin: 0;
+
+  .item {
+    min-height: 32px;
+    border-bottom: 1px solid $grey-light;
+    padding: 12px 6px;
+    display: flex;
+
+    .item-icon {
+      color: white;
+      font-weight: bold;
+      border-radius: 9px;
+      height: 38px;
+      width: 38px;
+      background-color: $grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 12px;
+    }
+
+    .title {
+      font-size: larger;
+      font-weight: 600;
+    }
+
+    .update {
+      margin-left: auto;
+      margin-right: 32px;
+    }
+
+    &:hover {
+      background-color: $grey-light;
+    }
+  }
+}
